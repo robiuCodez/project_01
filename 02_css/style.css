@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+}
+
+/* Element Selectors */
+h1 { 
+    color: "blue";
+}
+
+/* Class Selectors */
+.custom__button {
+  background-color: "red";
+  padding: 50px;
+}
+
+/* Id Selectors */
+#form__one {
+  margin: 20px 0px;
+}
+
+/* Specificity */
+h1 {
+    color: "red"
+}
+
+h1 {
+    color: "green"
+}
